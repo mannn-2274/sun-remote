@@ -1,1 +1,1 @@
-puts 0.6-0.5
+p (1..20).inject( [0, 1] ) { | fib | fib << fib.last(2).inject(:+) }
